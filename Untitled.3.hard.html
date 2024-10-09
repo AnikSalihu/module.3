@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        /* Basic styles for the layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            display: flex; /* Use flexbox to create columns */
+        }
+        .left-column, .right-column {
+            flex: 1; /* Each column takes equal space */
+            padding: 20px;
+        }
+        .right-column {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>My Blog</h1>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <div class="left-column">
+            <!-- Section for the latest blog post -->
+            <section id="latest-post">
+                <h2>Latest Post</h2>
+                <h3>The Beauty of Nature</h3>
+                <p>
+                    Nature is not only all that is around us, but it is also within us. 
+                    It is important to take a moment to appreciate the beauty surrounding us. 
+                    <strong>Whether it's a simple walk in the park</strong> or an adventurous hike in the mountains, 
+                    we should embrace the experience. 
+                </p>
+                <p>
+                    Here are some of the reasons why I love nature:
+                </p>
+                <ul>
+                    <li><em>Fresh air</em> - Breathing in the crisp, clean air rejuvenates the soul.</li>
+                    <li><em>Peaceful surroundings</em> - Nature provides a perfect escape from the chaos of daily life.</li>
+                    <li><em>Wildlife</em> - Observing animals in their natural habitat is fascinating.</li>
+                </ul>
+                <p>
+                    In conclusion, spending time outdoors is essential for our well-being. 
+                    Remember to cherish the <strong>natural world</strong> we live in!
+                </p>
+            </section>
+        </div>
+
+        <div class="right-column">
+            <!-- Section for the quote of the day -->
+            <section id="quote-of-the-day">
+                <h2>Quote of the Day</h2>
+                <blockquote>
+                    <q>The earth has music for those who listen.</q>
+                    <footer>- Shakespeare</footer>
+                </blockquote>
+            </section>
+        </div>
+    </main>
+
+    <!-- Optional footer section -->
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+    </footer>
+</body>
+</html>
